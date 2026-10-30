@@ -1,0 +1,73 @@
+{
+  "OSEDTT": {
+    "Title": "Dungeon Turn Tracker",
+    "Advance": "Next turn",
+    "BackTip": "Undo one turn (no checks)",
+    "Rest": "Rest",
+    "RestTip": "Party rests for 1 turn",
+    "Rested": "Party rested",
+    "Timer": "Timer",
+    "AddTimer": "Add timer",
+    "Add": "Add",
+    "Type": "Type",
+    "Label": "Label",
+    "LabelHint": "e.g. Torch (Bob)",
+    "Duration": "Duration (turns)",
+    "DurationHint": "A number or a dice formula, e.g. 1d6+6.",
+    "Remove": "Remove",
+    "Reset": "Reset tracker",
+    "ResetConfirm": "Reset all turns, rests and timers? Notes are kept.",
+    "JumpConfirm": "Advance {n} turns at once? All checks for those turns will be rolled.",
+    "TotalTurns": "turns",
+    "Elapsed": "Elapsed",
+    "TurnOfDay": "Turn of day",
+    "NextW": "Next W check in",
+    "Day": "Day",
+    "CurrentDay": "Jump to current day",
+    "ActiveTimers": "Active timers",
+    "NoTimers": "No active timers",
+    "TurnsLeft": "{n} left",
+    "Notes": "Referee's notes",
+    "Preset": {
+      "torch": "Torch",
+      "lantern": "Lantern",
+      "lightC": "Light (C)",
+      "lightMU": "Light (MU)",
+      "potion": "Potion",
+      "custom": "Custom"
+    },
+    "Legend": {
+      "W": "Wandering monster check",
+      "R": "Party must rest",
+      "T": "Torch expires",
+      "L": "Lantern expires"
+    },
+    "Chat": {
+      "WanderingTitle": "Wandering monster check",
+      "WanderingManual": "Turn {turn}: roll for wandering monsters.",
+      "Encounter": "Encounter!",
+      "NoEncounter": "Nothing comes.",
+      "NoticeTitle": "Dungeon time",
+      "MustRest": "The party must rest for 1 turn (−1 to attack and damage until they do).",
+      "Expired": "<strong>{label}</strong> has expired.",
+      "TurnShort": "Turn {turn}"
+    },
+    "Notify": {
+      "Encounter": "Wandering monster encounter on turn(s): {turns}",
+      "NoAccess": "Only the GM can open the turn tracker."
+    },
+    "Keybind": {
+      "toggle": "Open / close turn tracker",
+      "advance": "Advance one turn"
+    },
+    "Settings": {
+      "wanderingInterval": { "name": "Wandering monster check every X turns", "hint": "OSE default: every 2 turns." },
+      "wanderingChance": { "name": "Encounter chance (X-in-6)", "hint": "OSE default: 1-in-6." },
+      "autoRoll": { "name": "Roll wandering checks automatically", "hint": "If off, only a reminder is posted." },
+      "whisperWandering": { "name": "Whisper wandering checks to GM", "hint": "Hide wandering monster rolls from players." },
+      "restInterval": { "name": "Rest required every X turns", "hint": "OSE default: 1 turn of rest per 6 turns (1 hour)." },
+      "syncWorldTime": { "name": "Advance world time", "hint": "Each turn also advances Foundry world time by 10 minutes." },
+      "playersCanView": { "name": "Players can view the tracker", "hint": "Players see it read-only." }
+    }
+  }
+}

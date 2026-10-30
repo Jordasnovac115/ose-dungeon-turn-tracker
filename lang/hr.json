@@ -1,0 +1,73 @@
+{
+  "OSEDTT": {
+    "Title": "Praćenje tamničkih turnova",
+    "Advance": "Sljedeći turn",
+    "BackTip": "Poništi jedan turn (bez provjera)",
+    "Rest": "Odmor",
+    "RestTip": "Družina se odmara 1 turn",
+    "Rested": "Družina se odmorila",
+    "Timer": "Timer",
+    "AddTimer": "Dodaj timer",
+    "Add": "Dodaj",
+    "Type": "Vrsta",
+    "Label": "Naziv",
+    "LabelHint": "npr. Baklja (Marko)",
+    "Duration": "Trajanje (turnovi)",
+    "DurationHint": "Broj ili formula kockica, npr. 1d6+6.",
+    "Remove": "Ukloni",
+    "Reset": "Resetiraj tracker",
+    "ResetConfirm": "Resetirati sve turnove, odmore i timere? Bilješke ostaju.",
+    "JumpConfirm": "Pomaknuti {n} turnova odjednom? Bacit će se sve provjere za te turnove.",
+    "TotalTurns": "turnova",
+    "Elapsed": "Proteklo",
+    "TurnOfDay": "Turn dana",
+    "NextW": "Sljedeća W provjera za",
+    "Day": "Dan",
+    "CurrentDay": "Na trenutni dan",
+    "ActiveTimers": "Aktivni timeri",
+    "NoTimers": "Nema aktivnih timera",
+    "TurnsLeft": "još {n}",
+    "Notes": "Bilješke voditelja",
+    "Preset": {
+      "torch": "Baklja",
+      "lantern": "Svjetiljka",
+      "lightC": "Light (C)",
+      "lightMU": "Light (MU)",
+      "potion": "Napitak",
+      "custom": "Ostalo"
+    },
+    "Legend": {
+      "W": "Provjera lutajućih čudovišta",
+      "R": "Družina se mora odmoriti",
+      "T": "Baklja se gasi",
+      "L": "Ulje u svjetiljci ističe"
+    },
+    "Chat": {
+      "WanderingTitle": "Provjera lutajućih čudovišta",
+      "WanderingManual": "Turn {turn}: baci za lutajuća čudovišta.",
+      "Encounter": "Susret!",
+      "NoEncounter": "Ništa ne dolazi.",
+      "NoticeTitle": "Vrijeme u tamnici",
+      "MustRest": "Družina se mora odmoriti 1 turn (−1 na napad i štetu dok to ne učini).",
+      "Expired": "<strong>{label}</strong> je isteklo.",
+      "TurnShort": "Turn {turn}"
+    },
+    "Notify": {
+      "Encounter": "Susret s lutajućim čudovištem u turnu: {turns}",
+      "NoAccess": "Samo GM može otvoriti tracker."
+    },
+    "Keybind": {
+      "toggle": "Otvori / zatvori tracker",
+      "advance": "Pomakni jedan turn"
+    },
+    "Settings": {
+      "wanderingInterval": { "name": "Provjera lutajućih čudovišta svakih X turnova", "hint": "OSE zadano: svaka 2 turna." },
+      "wanderingChance": { "name": "Šansa susreta (X-u-6)", "hint": "OSE zadano: 1-u-6." },
+      "autoRoll": { "name": "Automatski baci provjere", "hint": "Ako je isključeno, objavljuje se samo podsjetnik." },
+      "whisperWandering": { "name": "Provjere šapni GM-u", "hint": "Sakrij bacanja za lutajuća čudovišta od igrača." },
+      "restInterval": { "name": "Odmor potreban svakih X turnova", "hint": "OSE zadano: 1 turn odmora na 6 turnova (1 sat)." },
+      "syncWorldTime": { "name": "Pomakni vrijeme svijeta", "hint": "Svaki turn pomiče i Foundry world time za 10 minuta." },
+      "playersCanView": { "name": "Igrači mogu vidjeti tracker", "hint": "Igrači ga vide samo za čitanje." }
+    }
+  }
+}

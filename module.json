@@ -1,0 +1,22 @@
+{
+  "id": "ose-dungeon-turn-tracker",
+  "title": "OSE Dungeon Turn Tracker",
+  "description": "Dungeon time tracker for Old-School Essentials: tick off 10-minute turns, automatic wandering monster checks, rest reminders and light/spell timers.",
+  "version": "1.0.0",
+  "authors": [{ "name": "Dean" }],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      { "id": "ose", "type": "system", "compatibility": {} }
+    ]
+  },
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/tracker.css"],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" },
+    { "lang": "hr", "name": "Hrvatski", "path": "lang/hr.json" }
+  ]
+}
